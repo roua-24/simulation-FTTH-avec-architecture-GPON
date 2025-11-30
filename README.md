@@ -1,8 +1,8 @@
-** Simulation d’un réseau FTTH avec architecture GPON **
+**Simulation d’un réseau FTTH avec architecture GPON**
 Projet de stage  – Août 2025
 Auteur : Roua Jendoubi
 
- Description du projet
+ ****Description du projet****
 
 Ce projet consiste à simuler un réseau FTTH (Fiber To The Home) basé sur l’architecture GPON (Gigabit Passive Optical Network).
 Il inclut :
@@ -19,7 +19,7 @@ L’automatisation avec Python + SQLite (supervision, budget optique)
 
 Le travail a été réalisé dans le cadre d’un stage au sein de SOTETEL, un leader tunisien spécialisé dans les infrastructures télécoms.
 
-**** Objectifs principaux****
+****Objectifs principaux****
 
 Concevoir une topologie FTTH/GPON complète
 
@@ -39,7 +39,7 @@ Mettre en place un système de supervision SNMP avec stockage SQLite
 
 Automatiser les calculs de budget optique via Python
 
-🧩 Architecture GPON simulée
+**Architecture GPON simulée**
 
 OLT (Optical Line Terminal)
 
@@ -57,8 +57,8 @@ Longueurs d’onde :
 
 1550 nm (RF vidéo)
 
-🛠️ Outils utilisés
-🔹 Simulation réseau
+**Outils utilisés**
+  **Simulation réseau**
 
 Cisco Packet Tracer
 
@@ -66,7 +66,7 @@ GNS3
 
 Wireshark
 
-🔹 Supervision & Automatisation
+  ****Supervision & Automatisation****
 
 SNMP (supervision des équipements IP)
 
@@ -76,34 +76,34 @@ SQLite (base de données de supervision)
 
 Graphviz (schémas d’architecture)
 
-🔬 Scénarios simulés
-✔️ 1. Téléchargement de fichier
+****Scénarios simulés**** 
+1. Téléchargement de fichier
 
 → Stabilité du débit, latence faible, pertes négligeables.
 
-✔️ 2. Panne fibre + alarmes LOS/LOF
+2. Panne fibre + alarmes LOS/LOF
 
 → Détection immédiate, perte totale de connectivité, supervision fonctionnelle.
 
-✔️ 3. Tests QoS (VoIP, vidéo, data)
+3. Tests QoS (VoIP, vidéo, data)
 
 → Priorisation correcte des flux sensibles (VoIP & vidéo).
 → Réduction du jitter & latence avec QoS activée.
 
-✔️ 4. Montée en charge
+4. Montée en charge
 
 → Maintien de la connectivité avec légère dégradation sous forte charge.
 
-✔️ 5. VoIP sur GPON
+5. VoIP sur GPON
 
 → Appels entre deux IP Phones via ONT : réussi.
 
-✔️ 6. Budget optique (Python)
+6. Budget optique (Python)
 
 → Analyse des scénarios 1:32 et 1:64.
 → Baisse de la marge optique avec ratio élevé.
 
-📊 Résultats globaux
+****Résultats globaux****
 
 Configuration cohérente et stable
 
@@ -115,7 +115,7 @@ Réseau performant même sous charge
 
 Simulation pertinente malgré les limites de GNS3/Packet Tracer pour les protocoles GPON réels
 
-🚀 Perspectives d’amélioration
+****Perspectives d’amélioration****
 
 Intégrer une interface graphique de supervision
 
@@ -125,7 +125,7 @@ Passer vers un banc GPON réel ou émulateur professionnel
 
 Utiliser des outils modernes comme Grafana / Zabbix pour la visualisation
 
-📂 Contenu du dépôt GitHub
+****Contenu du dépôt GitHub****
 ├── Rapport_de_stage_FTTH_GPON.pdf
 
 ├── scripts/
@@ -155,13 +155,13 @@ Utiliser des outils modernes comme Grafana / Zabbix pour la visualisation
 └── README.md
 
 
-👩‍💻 Auteur
+****Auteur****
 
 Roua Jendoubi
 Étudiante en télécommunications & réseaux
 Passionnée par les technologies optiques, la simulation réseau et la cybersécurité.
 
-📄 Licence
+****Licence****
 
 Ce projet est partagé à des fins éducatives dans le cadre d’un stage académique.
 Toute réutilisation doit citer l’auteure et la source.
