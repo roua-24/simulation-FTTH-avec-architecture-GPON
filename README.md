@@ -128,19 +128,33 @@ Utiliser des outils modernes comme Grafana / Zabbix pour la visualisation
 
 📂 Contenu du dépôt GitHub
 ├── Rapport_de_stage_FTTH_GPON.pdf
+
 ├── scripts/
+
 │   ├── snmp_collector.py
+
 │   ├── budget_optique.py
+
 │   └── sql_structure.sql
+
 ├── configurations/
+
 │   ├── cisco_packet_tracer/
+
 │   ├── gns3/
+
 │   └── qos_voip/
+
 ├── graphviz/
+
 │   ├── snmp_flows.gv
+
 │   ├── omci_flows.gv
+
 │   └── snmp_vs_omci.gv
+
 └── README.md
+
 
 👩‍💻 Auteur
 
