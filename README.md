@@ -1,9 +1,8 @@
-📡 Simulation d’un réseau FTTH avec architecture GPON
-
+ Simulation d’un réseau FTTH avec architecture GPON
 Projet de stage  – Août 2025
 Auteur : Roua Jendoubi
 
-📘 Description du projet
+ Description du projet
 
 Ce projet consiste à simuler un réseau FTTH (Fiber To The Home) basé sur l’architecture GPON (Gigabit Passive Optical Network).
 Il inclut :
@@ -20,7 +19,7 @@ L’automatisation avec Python + SQLite (supervision, budget optique)
 
 Le travail a été réalisé dans le cadre d’un stage au sein de SOTETEL, un leader tunisien spécialisé dans les infrastructures télécoms.
 
-🏗️ Objectifs principaux
+**** Objectifs principaux****
 
 Concevoir une topologie FTTH/GPON complète
 
